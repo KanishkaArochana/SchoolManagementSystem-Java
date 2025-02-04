@@ -66,6 +66,7 @@ public class student extends javax.swing.JFrame {
         reset = new javax.swing.JButton();
         update = new javax.swing.JButton();
         delete = new javax.swing.JButton();
+        mainManuBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -242,6 +243,17 @@ public class student extends javax.swing.JFrame {
         jPanel1.add(delete);
         delete.setBounds(590, 730, 140, 43);
 
+        mainManuBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        mainManuBtn.setText("MAIN MENU");
+        mainManuBtn.setActionCommand("jButton21");
+        mainManuBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mainManuBtnActionPerformed(evt);
+            }
+        });
+        jPanel1.add(mainManuBtn);
+        mainManuBtn.setBounds(910, 20, 143, 50);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -324,6 +336,8 @@ public class student extends javax.swing.JFrame {
             
             preparedStmt.execute();
             JOptionPane.showMessageDialog(null, "ADDED"); //Alert Box
+            
+            Reset();
         }
         catch(Exception e)
         {
@@ -363,8 +377,10 @@ public class student extends javax.swing.JFrame {
         catch(Exception e){
             System.out.println(e);
         }
+        
     }//GEN-LAST:event_searchActionPerformed
 
+    
     private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
         // TODO add your handling code here:
         
@@ -414,6 +430,7 @@ public class student extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+          Reset();
     }//GEN-LAST:event_updateActionPerformed
 
     private void deleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteActionPerformed
@@ -436,7 +453,15 @@ public class student extends javax.swing.JFrame {
         catch(Exception e){
             System.out.println(e);
         }
+        Reset();
     }//GEN-LAST:event_deleteActionPerformed
+
+    private void mainManuBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mainManuBtnActionPerformed
+        // TODO add your handling code here:
+        setVisible(false);
+        Home view = new Home();
+        view.setVisible(true);
+    }//GEN-LAST:event_mainManuBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -496,6 +521,7 @@ public class student extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton mainManuBtn;
     private javax.swing.JTextField name;
     private javax.swing.JButton reset;
     private javax.swing.JButton search;
