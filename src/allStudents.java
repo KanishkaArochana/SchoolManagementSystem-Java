@@ -69,8 +69,8 @@ public class allStudents extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 0));
-        jLabel1.setText("STUDENTS");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, -1, -1));
+        jLabel1.setText("STUDENTS DETAILS");
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 50, -1, -1));
 
         grade.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         grade.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "All", "1A", "1B", "1C" }));
@@ -81,7 +81,7 @@ public class allStudents extends javax.swing.JFrame {
         });
         jPanel1.add(grade, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 140, -1, -1));
 
-        view.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        view.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         view.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -114,7 +114,7 @@ public class allStudents extends javax.swing.JFrame {
                 mainManuBtnActionPerformed(evt);
             }
         });
-        jPanel1.add(mainManuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 680, 160, 50));
+        jPanel1.add(mainManuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 710, 160, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -124,7 +124,7 @@ public class allStudents extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 771, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 794, Short.MAX_VALUE)
         );
 
         pack();

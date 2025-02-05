@@ -70,6 +70,7 @@ public class Principal extends javax.swing.JFrame {
         DeletePrincipal = new javax.swing.JButton();
         SearchPrincipal = new javax.swing.JButton();
         UpdatePrincipal1 = new javax.swing.JButton();
+        mainManuBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -78,7 +79,7 @@ public class Principal extends javax.swing.JFrame {
 
         PRINCIPAL.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         PRINCIPAL.setForeground(new java.awt.Color(255, 0, 0));
-        PRINCIPAL.setText("PRINCIPAL");
+        PRINCIPAL.setText("PRINCIPAL ");
         jPanel1.add(PRINCIPAL, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
@@ -229,11 +230,21 @@ public class Principal extends javax.swing.JFrame {
         });
         jPanel1.add(UpdatePrincipal1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 350, -1, -1));
 
+        mainManuBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        mainManuBtn.setText("MAIN MENU");
+        mainManuBtn.setActionCommand("jButton21");
+        mainManuBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mainManuBtnActionPerformed(evt);
+            }
+        });
+        jPanel1.add(mainManuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 20, 160, 50));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1115, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -303,6 +314,8 @@ public class Principal extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+           
+           Reset();
         
     }//GEN-LAST:event_SubmitPrincipalActionPerformed
 
@@ -439,6 +452,8 @@ public class Principal extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+         
+         Reset();
     }//GEN-LAST:event_UpdatePrincipal1ActionPerformed
 
     private void DeletePrincipalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DeletePrincipalActionPerformed
@@ -460,7 +475,16 @@ public class Principal extends javax.swing.JFrame {
         catch(Exception e){
             System.out.println(e);
         }
+          
+          Reset();
     }//GEN-LAST:event_DeletePrincipalActionPerformed
+
+    private void mainManuBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mainManuBtnActionPerformed
+        // TODO add your handling code here:
+        setVisible(false);
+        Home view = new Home();
+        view.setVisible(true);
+    }//GEN-LAST:event_mainManuBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -522,6 +546,7 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton mainManuBtn;
     // End of variables declaration//GEN-END:variables
 
     

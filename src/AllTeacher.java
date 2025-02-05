@@ -77,7 +77,7 @@ public class AllTeacher extends javax.swing.JFrame {
         jLabel1.setText("TEACHERS DETAILS");
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 50, -1, -1));
 
-        viewTeacher.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        viewTeacher.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
         viewTeacher.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},

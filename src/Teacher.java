@@ -74,6 +74,7 @@ public class Teacher extends javax.swing.JFrame {
         newTeacher = new javax.swing.JButton();
         imageIcon = new javax.swing.JLabel();
         select = new javax.swing.JButton();
+        mainManuBtn = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -83,42 +84,42 @@ public class Teacher extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 0, 51));
         jLabel1.setText("TEACHER");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 40, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 60, -1, -1));
 
         contact.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         contact.setForeground(new java.awt.Color(0, 0, 0));
         contact.setText("CONTACT NO.");
-        jPanel1.add(contact, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 640, -1, -1));
+        jPanel1.add(contact, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 450, -1, -1));
 
         id1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id1.setForeground(new java.awt.Color(0, 0, 0));
         id1.setText("ID");
-        jPanel1.add(id1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 340, -1, -1));
+        jPanel1.add(id1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 150, -1, -1));
 
         id2.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id2.setForeground(new java.awt.Color(0, 0, 0));
         id2.setText("NAME");
-        jPanel1.add(id2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 390, -1, -1));
+        jPanel1.add(id2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, -1, -1));
 
         id3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id3.setForeground(new java.awt.Color(0, 0, 0));
         id3.setText("ADDRESS");
-        jPanel1.add(id3, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 440, -1, -1));
+        jPanel1.add(id3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, -1, -1));
 
         id4.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id4.setForeground(new java.awt.Color(0, 0, 0));
         id4.setText("AGE");
-        jPanel1.add(id4, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 490, -1, -1));
+        jPanel1.add(id4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 300, -1, -1));
 
         id5.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id5.setForeground(new java.awt.Color(0, 0, 0));
         id5.setText("BIRTDAY");
-        jPanel1.add(id5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 540, -1, -1));
+        jPanel1.add(id5, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 350, -1, -1));
 
         id6.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id6.setForeground(new java.awt.Color(0, 0, 0));
         id6.setText("GENDER");
-        jPanel1.add(id6, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 590, -1, -1));
+        jPanel1.add(id6, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 400, -1, -1));
 
         Tcontact.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tcontact.addActionListener(new java.awt.event.ActionListener() {
@@ -126,17 +127,17 @@ public class Teacher extends javax.swing.JFrame {
                 TcontactActionPerformed(evt);
             }
         });
-        jPanel1.add(Tcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 640, 330, -1));
+        jPanel1.add(Tcontact, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 450, 330, -1));
 
         id7.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id7.setForeground(new java.awt.Color(0, 0, 0));
         id7.setText("CONTACT NO.");
-        jPanel1.add(id7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 640, -1, -1));
+        jPanel1.add(id7, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 450, -1, -1));
 
         id8.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         id8.setForeground(new java.awt.Color(0, 0, 0));
         id8.setText("CONTACT NO.");
-        jPanel1.add(id8, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 640, -1, -1));
+        jPanel1.add(id8, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 450, -1, -1));
 
         Tid.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tid.addActionListener(new java.awt.event.ActionListener() {
@@ -144,7 +145,7 @@ public class Teacher extends javax.swing.JFrame {
                 TidActionPerformed(evt);
             }
         });
-        jPanel1.add(Tid, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 340, 200, -1));
+        jPanel1.add(Tid, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 150, 200, -1));
 
         Tname.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tname.addActionListener(new java.awt.event.ActionListener() {
@@ -152,7 +153,7 @@ public class Teacher extends javax.swing.JFrame {
                 TnameActionPerformed(evt);
             }
         });
-        jPanel1.add(Tname, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 390, 330, -1));
+        jPanel1.add(Tname, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 200, 330, -1));
 
         Taddress.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Taddress.addActionListener(new java.awt.event.ActionListener() {
@@ -160,7 +161,7 @@ public class Teacher extends javax.swing.JFrame {
                 TaddressActionPerformed(evt);
             }
         });
-        jPanel1.add(Taddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 440, 330, -1));
+        jPanel1.add(Taddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 250, 330, -1));
 
         Tage.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tage.addActionListener(new java.awt.event.ActionListener() {
@@ -168,7 +169,7 @@ public class Teacher extends javax.swing.JFrame {
                 TageActionPerformed(evt);
             }
         });
-        jPanel1.add(Tage, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 490, 330, -1));
+        jPanel1.add(Tage, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, 330, -1));
 
         Tbirthday.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tbirthday.addActionListener(new java.awt.event.ActionListener() {
@@ -176,11 +177,11 @@ public class Teacher extends javax.swing.JFrame {
                 TbirthdayActionPerformed(evt);
             }
         });
-        jPanel1.add(Tbirthday, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 540, 330, -1));
+        jPanel1.add(Tbirthday, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 350, 330, -1));
 
         Tgender.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         Tgender.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Choose Gender", "Male", "Female" }));
-        jPanel1.add(Tgender, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 590, -1, -1));
+        jPanel1.add(Tgender, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 400, -1, -1));
 
         submit.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         submit.setText("SUBMIT");
@@ -189,7 +190,7 @@ public class Teacher extends javax.swing.JFrame {
                 submitActionPerformed(evt);
             }
         });
-        jPanel1.add(submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 700, -1, -1));
+        jPanel1.add(submit, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 510, -1, -1));
 
         update.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         update.setText("UPDATE");
@@ -198,7 +199,7 @@ public class Teacher extends javax.swing.JFrame {
                 updateActionPerformed(evt);
             }
         });
-        jPanel1.add(update, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 700, -1, -1));
+        jPanel1.add(update, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 510, -1, -1));
 
         delete.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         delete.setText("DELETE");
@@ -207,7 +208,7 @@ public class Teacher extends javax.swing.JFrame {
                 deleteActionPerformed(evt);
             }
         });
-        jPanel1.add(delete, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 700, -1, -1));
+        jPanel1.add(delete, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 510, -1, -1));
 
         search.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         search.setText("SEARCH");
@@ -216,7 +217,7 @@ public class Teacher extends javax.swing.JFrame {
                 searchActionPerformed(evt);
             }
         });
-        jPanel1.add(search, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 340, -1, -1));
+        jPanel1.add(search, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 150, -1, -1));
 
         newTeacher.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         newTeacher.setText("NEW");
@@ -225,10 +226,10 @@ public class Teacher extends javax.swing.JFrame {
                 newTeacherActionPerformed(evt);
             }
         });
-        jPanel1.add(newTeacher, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 210, -1, -1));
+        jPanel1.add(newTeacher, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 430, -1, -1));
 
         imageIcon.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.add(imageIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 140, 150, 140));
+        jPanel1.add(imageIcon, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 130, 190, 190));
 
         select.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         select.setText("SELECT IMAGE");
@@ -237,18 +238,32 @@ public class Teacher extends javax.swing.JFrame {
                 selectActionPerformed(evt);
             }
         });
-        jPanel1.add(select, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 200, -1, -1));
+        jPanel1.add(select, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 360, -1, -1));
+
+        mainManuBtn.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        mainManuBtn.setText("MAIN MENU");
+        mainManuBtn.setActionCommand("jButton21");
+        mainManuBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mainManuBtnActionPerformed(evt);
+            }
+        });
+        jPanel1.add(mainManuBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 10, 160, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1014, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1116, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 752, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 820, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -344,6 +359,7 @@ public class Teacher extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+            Reset();
     }//GEN-LAST:event_submitActionPerformed
 
     private void updateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_updateActionPerformed
@@ -384,6 +400,8 @@ public class Teacher extends javax.swing.JFrame {
         {
             System.out.println(e);
         }
+        
+        Reset();
     }//GEN-LAST:event_updateActionPerformed
 
     private void searchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchActionPerformed
@@ -465,7 +483,15 @@ public class Teacher extends javax.swing.JFrame {
         catch(Exception e){
             System.out.println(e);
         }
+        Reset();
     }//GEN-LAST:event_deleteActionPerformed
+
+    private void mainManuBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mainManuBtnActionPerformed
+        // TODO add your handling code here:
+        setVisible(false);
+        Home view = new Home();
+        view.setVisible(true);
+    }//GEN-LAST:event_mainManuBtnActionPerformed
 
     /**
      * @param args the command line arguments
@@ -523,6 +549,7 @@ public class Teacher extends javax.swing.JFrame {
     private javax.swing.JLabel imageIcon;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton mainManuBtn;
     private javax.swing.JButton newTeacher;
     private javax.swing.JButton search;
     private javax.swing.JButton select;
