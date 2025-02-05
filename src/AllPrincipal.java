@@ -133,7 +133,7 @@ public class AllPrincipal extends javax.swing.JFrame {
 
     private void editBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_editBtnActionPerformed
         setVisible(false);
-        Teacher view = new Teacher();
+        Principal view = new Principal();
         view.setVisible(true);
     }//GEN-LAST:event_editBtnActionPerformed
 
